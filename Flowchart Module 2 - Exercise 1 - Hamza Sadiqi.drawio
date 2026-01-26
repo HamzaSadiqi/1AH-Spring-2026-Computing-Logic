@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="DBPt88nP9krd088mugkn">
+    <mxGraphModel dx="703" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Draw the hierarchy chart and design the logic for a program that calculates service charges for Hazel’s Housecleaning service.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;The program contains housekeeping, detail loop, and end-of-job modules.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;The main program declares any needed global variables and constants and calls the other modules.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;The housekeeping module displays a prompt for and accepts a customer’s last name. While the user does not enter ZZZZ for the name, the detail loop accepts the number of bathrooms and the number of other rooms to be cleaned.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The service charge is computed as $40 plus $15 for each bathroom and $10 for each of the other rooms.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The detail loop also displays the service charge and then prompts the user for the next customer’s name.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;The end-of-job module, which executes after the user enters the sentinel value for the name, displays a message that indicates the program is complete.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="390" x="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-28" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4lRpHgBq-b5-jOIgnAGE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="50" width="120" x="95" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-29" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;String CustomerLastName&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Number NumB&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;athrooms&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Number N&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;umOfOtherRooms&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;Number ServiceCharge&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="230" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-36" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4lRpHgBq-b5-jOIgnAGE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="housekeeping()" vertex="1">
+          <mxGeometry height="50" width="120" x="610" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-39" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input&amp;nbsp;&lt;span style=&quot;color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CustomerLastName&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="540" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-38" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;Please enter the customer&#39;s last name&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="530" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Return" vertex="1">
+          <mxGeometry height="50" width="120" x="590" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-40" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="detail()" vertex="1">
+          <mxGeometry height="50" width="120" x="930" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-41" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;Please enter the number of bathrooms&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="840" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-42" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input &quot;NumBathrooms&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="840" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-43" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;Please enter the number of other rooms&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="840" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-44" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input &quot;NumOfOtherRooms&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="840" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-45" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ServiceCharge = 40 + (15 * NumBathrooms) + (10 * NumOfOtherRooms)" vertex="1">
+          <mxGeometry height="80" width="250" x="840" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-46" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;The service charge is: &quot; ServiceCharge" vertex="1">
+          <mxGeometry height="60" width="250" x="840" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-49" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;end-of-job&lt;/span&gt;()" vertex="1">
+          <mxGeometry height="50" width="120" x="1240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-47" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;Please enter the next customer&#39;s last name. Enter &#39;ZZZZ&#39; to Quit&quot;" vertex="1">
+          <mxGeometry height="50" width="250" x="840" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-48" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input&amp;nbsp;&lt;span style=&quot;color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CustomerLastName&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="870" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Return" vertex="1">
+          <mxGeometry height="50" width="120" x="895" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-50" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-22" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Output &quot;Thanks for using this program.&quot;" vertex="1">
+          <mxGeometry height="60" width="250" x="1195" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Return" vertex="1">
+          <mxGeometry height="50" width="120" x="1260" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-30" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;housekeeping()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="55" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-33" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0000000000001" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Is&amp;nbsp;&lt;span style=&quot;color: rgb(39, 53, 64); font-family: LatoWeb, &amp;quot;Lato Extended&amp;quot;, Lato, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;CustomerLastName = &quot;ZZZZ&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="195" x="42.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-32" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4lRpHgBq-b5-jOIgnAGE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400; font-size: 14px;&quot;&gt;end-of-job&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="50" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;detail()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="300" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-31" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.475;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" target="4lRpHgBq-b5-jOIgnAGE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-35" edge="1" parent="1" source="4lRpHgBq-b5-jOIgnAGE-27" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="760" />
+            </Array>
+            <mxPoint x="230" y="920" as="sourcePoint" />
+            <mxPoint x="160" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-53" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="119" width="23.5" x="816.5" y="1035.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Get the next customer&#39;s account balance before enter the detail loop again." vertex="1">
+          <mxGeometry height="40" width="162" x="660" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="4lRpHgBq-b5-jOIgnAGE-58" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Program that calculates service charges for Hazel’s Housecleaning service.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Hamza Sadiqi&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1/25/2026&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="390" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DmUZKYY4KexqKMoORwOW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="125" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="DmUZKYY4KexqKMoORwOW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="215" y="845" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
