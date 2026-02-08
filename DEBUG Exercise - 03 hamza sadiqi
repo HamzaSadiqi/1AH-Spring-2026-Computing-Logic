@@ -1,0 +1,97 @@
+// This pseudocode is intended to display
+// employee net pay values. All employees have a standard
+// $45 deduction from their checks.
+// If an employee does not earn enough to cover the deduction
+// an error message is displayed.
+// This example is modularized.
+start
+   Declarations
+      string name
+      string EOFNAME = ZZZZ   //the value of EOFNAME is string so it should be "ZZZZ".
+   while name not equal to EOFNAME  //No need to use while loop here because we haven't asked the employee to enter his name yet.
+      housekeeping()
+   endwhile
+   while name not equal to EOFNAME  //it's better to write this line in this format (while != EOFNAME) to make it more professional.
+      mainLoop()
+   endwhile
+   while name not equal to EOFNAME  //No need to use while here.
+      finish()
+   endwhile
+stop
+
+housekeeping()
+   output "Enter first name or ", EOFNAME, " to quit "  //After this line we should ask the employee to enter his name.
+return
+
+mainLoop()
+   Declarations
+      num hours
+      num rate
+      num DEDUCTION = 45
+      num net
+   output "Enter hours worked for ", name
+   input hours
+   output "Enter hourly rate for ", name
+   input rate
+   gross = hours * rate
+   net = gross - DEDUCTION
+   if net > 0 then
+      output "Net pay for ", name, " is ", net
+   else
+      output "Deductions not covered. Net is 0."
+   endif
+   output "Enter next name or ", EOFNAME, " to quit "
+   input name
+return
+
+finish()
+   output "End of job"
+return
+--------------------------------------------------------------------------------------
+Correction
+start
+   Declarations
+      string name
+      string EOFNAME = "ZZZZ"
+   
+      housekeeping()
+   
+   while != EOFNAME
+      mainLoop()
+   endwhile
+   
+      finish()
+   
+stop
+
+housekeeping()
+   output "Enter first name or ", EOFNAME, " to quit "
+   input name
+return
+
+mainLoop()
+   Declarations
+      num hours
+      num rate
+      num DEDUCTION = 45
+      num net
+   output "Enter hours worked for ", name
+   input hours
+   output "Enter hourly rate for ", name
+   input rate
+   gross = hours * rate
+   net = gross - DEDUCTION
+   if net > 0 then
+      output "Net pay for ", name, " is ", net
+   else
+      output "Deductions not covered. Net is 0."
+   endif
+   output "Enter next name or ", EOFNAME, " to quit "
+   input name
+return
+
+finish()
+   output "End of job"
+return
+
+
